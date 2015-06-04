@@ -1,0 +1,191 @@
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.main-div {
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.google-image {
+  width: 400px;
+}
+
+.search-box {
+  width: 600px;
+  height: 30px;
+  font-size: 17px;
+  color: black;
+}
+
+.main-div {
+  position: absolute;
+  top: 30%;
+}
+
+.buttons {
+  width: 220px;
+}
+
+.marissa-search {
+  border: solid 1px #D5D5D5;
+  font-weight: bold;
+  background-color: #F2F2F2;
+  height: 30px;
+  float: left;
+  border-radius: 2px;
+}
+
+.marissa-text {
+  font-family: Arial; 
+  font-size: small
+}
+
+.lucky-search {
+  border: solid 1px #D5D5D5;
+  font-weight: bold;
+  background-color: #F2F2F2;
+  height: 30px;
+  float: right;
+  border-radius: 2px;
+}
+
+.bottom-bar {
+  position: absolute;
+  background-color: #F2F2F2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 37px;
+  border-top: solid 1px #D5D5D5;
+}
+
+.f-bar p {
+  position: relative;
+  display: inline;
+  font-family: Arial;
+  padding-left: 20px;
+  top: 7px;
+  font-size: 12px;
+  color: grey;
+}
+
+.f-name {
+  color: grey;
+}
+
+.f-email {
+  color: grey;
+}
+
+.f-location {
+  color: grey;
+}
+
+
+/*============RESPONSIVE============*/
+
+@media screen and (max-width: 700px) {
+  .google-image {
+    width: 220px;
+  }
+
+  .search-box {
+  	width: 250px;
+  	font-size: 12px;
+  }
+
+  .f-bar p {
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-bar {
+    height: 100px;
+  }
+
+  .marissa-text {
+  	font-size: 10px;
+  }
+
+}
+
+/*============END RESPONSIVE============*/
+
+
+/*============MAIN PAGE============*/
+
+.head-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid #D5D5D5;
+}
+
+.google-head {
+  position: relative;
+  left: 13px;
+  top: 15px;
+  width: 90px;
+}
+
+.search-head {
+  position: relative;
+  left: 30px;
+  top: 13px;
+  width: 550px;
+  height: 30px;
+  font-size: 17px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
