@@ -9,11 +9,11 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .main-div {
@@ -23,7 +23,9 @@ a:active {
 }
 
 .google-image {
-  width: 400px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 .search-box {
@@ -33,21 +35,16 @@ a:active {
   color: black;
 }
 
-.main-div {
-  position: absolute;
-  top: 30%;
-}
-
 .buttons {
   width: 220px;
 }
 
 .marissa-search {
+  font-size: 12px;
   border: solid 1px #D5D5D5;
   font-weight: bold;
   background-color: #F2F2F2;
   height: 30px;
-  float: left;
   border-radius: 2px;
 }
 
@@ -57,11 +54,11 @@ a:active {
 }
 
 .lucky-search {
+  font-size: 12px;
   border: solid 1px #D5D5D5;
   font-weight: bold;
   background-color: #F2F2F2;
   height: 30px;
-  float: right;
   border-radius: 2px;
 }
 
@@ -106,7 +103,7 @@ a:active {
   }
 
   .search-box {
-  	width: 250px;
+  	width: 270px;
   	font-size: 12px;
   }
 
@@ -120,7 +117,7 @@ a:active {
   }
 
   .marissa-text {
-  	font-size: 10px;
+  	font-size: 12px;
   }
 
 }
@@ -154,23 +151,30 @@ a:active {
   color: black;
 }
 
+.nav-bar {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  font-size: 15px;
+  font-family: Arial;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #D5D5D5;
+}
 
+.nav-bar a {
+  position: relative;
+  top: 18px;
+  left: 110px;
+  margin: 0px 7px 0px 7px;
+  padding: 10px 7px 20px 7px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#resume {
+  color: red;
+  font-weight: bold;
+  border-bottom: 3px solid #dd4b39;
+}
 
 
 
@@ -189,3 +193,23 @@ a:active {
 :-ms-input-placeholder {  
    color: black;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
