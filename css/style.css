@@ -99,7 +99,7 @@ a:hover {
 .head-bar {
   height: 60px;
   background-color: #F2F2F2;
-  border-bottom: 1px solid #D5D5D5;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
 }
 
 .google-head {
@@ -153,7 +153,7 @@ a:hover {
 
 .nav-header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #D5D5D5;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
 }
 
 .links {
@@ -183,11 +183,39 @@ a:hover {
 
 .mar-image {
   width: 20%;
-  padding-top: 5px;
+  padding-top: 2px;
+  opacity: 0.7;
 }
 
 .links a {
   border-bottom: 0px;
+}
+
+
+.pictures img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.pictures {
+  overflow:hidden;
+}
+
+.news {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.mar-fav {
+  display: inline-block;
+}
+
+.mar-fav p {
+  text-align: center;
+}
+
+.mar-pic {
+  width: 100px;
 }
 
 
@@ -206,9 +234,6 @@ a:hover {
 :-ms-input-placeholder {  
    color: black;  
 }
-
-
-
 
 
 /*============RESPONSIVE============*/
@@ -280,16 +305,3 @@ a:hover {
 }
 
 /*============END RESPONSIVE============*/
-
-
-
-
-
-
-
-
-
-
-
-
-
