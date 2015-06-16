@@ -186,7 +186,9 @@ a:hover {
   padding-top: 5px;
 }
 
-
+.links a {
+  border-bottom: 0px;
+}
 
 
 ::-webkit-input-placeholder {
@@ -234,6 +236,12 @@ a:hover {
     font-size: 12px;
   }
 
+  .links a {
+    font-size: 10px;
+    border-bottom: 0px;
+  }
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -272,7 +280,6 @@ a:hover {
 }
 
 /*============END RESPONSIVE============*/
-
 
 
 
