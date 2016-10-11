@@ -144,6 +144,10 @@ a:hover {
   border-bottom: 3px solid #dd4b39;
 }
 
+.resume-content {
+  padding: 10px 0px;
+}
+
 .search-blue {
   position: relative; 
   width: 59px; 
